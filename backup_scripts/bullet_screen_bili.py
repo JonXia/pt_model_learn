@@ -9,7 +9,7 @@ from pprint import pprint
 # xml形式的文件爬取失效
 # 用接口获取
 ######################
-# 1.根据bvid请求得到cid
+# 1.根据bv请求得到cid
 def get_cid(bv):
     cids = []
     url = 'https://api.bilibili.com/x/player/pagelist?bvid={}&jsonp=jsonp'.format(bv)
@@ -40,7 +40,7 @@ def save_to_file(data, file):
             f.write("\n")
  
  
-bv = ""
+bv = "BV1P4411F77q"
 cids = get_cid(bv)
 for cid in cids:
     data = get_data(cid)
