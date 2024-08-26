@@ -1,8 +1,3 @@
-"""
-@author: liucong
-@contact: logcongcong@gmail.com
-@time: 2020/5/25 18:00
-"""
 # gevent == 1.3a1
 # flask == 0.12.2
 from gevent import monkey

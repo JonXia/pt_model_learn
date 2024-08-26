@@ -1,8 +1,3 @@
-"""
-@author: liucong
-@contact: logcongcong@gmail.com
-@time: 2020/5/25 18:00
-"""
 import deep_learning_http_server.news_classification.bert_tokenization as bert_tokenization
 # import tensorflow as tf
 import tensorflow.compat.v1 as tf

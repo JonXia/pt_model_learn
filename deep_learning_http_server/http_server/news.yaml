@@ -1,6 +1,6 @@
 path:
-  vocab_file: /home/nlp/lcong/news_classification/data/chinese_roberta_wwm_ext_L-12_H-768_A-12/vocab.txt
-  model_path: /home/nlp/lcong/news_classification/new_classification_bert/model/bert_model.pb
+  vocab_file: /home/nlp/news_classification/data/chinese_roberta_wwm_ext_L-12_H-768_A-12/vocab.txt
+  model_path: /home/nlp/news_classification/new_classification_bert/model/bert_model.pb
 
 hyperparameters:
   http_id: 127.0.0.1
